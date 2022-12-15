@@ -18,12 +18,12 @@ export default function App() {
     existingTodo();
   }, []);
 
-  const handleSubmit = async (task) => {
+  const handleSubmit = async  (task) => {
     const todo = {
       id: uuidv4(),
       content: task,
     };
-    const response = await fetch("http://localhost:3001/uses", {
+    const response = await fetch("http://localhost:3001/users", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
