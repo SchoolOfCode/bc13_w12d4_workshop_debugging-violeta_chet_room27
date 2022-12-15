@@ -18,8 +18,8 @@ test("The hasPets function should return (henry ford has no pets)", () => {
   expect(calcs.hasPets(false, "henry", "ford")).toBe("henry ford has no pets");
 });
 
-test("The balance of account1 and account2 should return 156", () => {
-  expect(calcs.addsBalanceOfAccounts()).toBe(156);
+test("The balance of account1 and account2 should return 364", () => {
+  expect(calcs.addsBalanceOfAccounts()).toBe(364);
 });
 
 test("The Calculator should return 4", () => {
